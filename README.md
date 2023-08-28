@@ -13,11 +13,17 @@ Here is an overview of overall Medicare Part D Prescibers scenario in the US. We
 
 ![image](https://github.com/Janzhuj/Medicare-Part-D-Claims-Segmentation-and-Anomaly-Detection/assets/99841253/b8ca863f-73af-46d2-b641-1351374e46d5)
 
+![image](https://github.com/Janzhuj/Medicare-Part-D-Claims-Segmentation-and-Anomaly-Detection/assets/99841253/f05a709d-27cf-4bf5-b5c1-ab25f813fe7c)
+
 I applied k-means clustering to partition claim data into k clusters in which each observation belonged to the cluster with the nearest centroid, and used KElbowVisualizer to identify optimum number of clusters. As shown in below, I decided that 6 is the optimum number of clusters.
 
 ![image](https://github.com/Janzhuj/Medicare-Part-D-Claims-Segmentation-and-Anomaly-Detection/assets/99841253/59efd82d-ce94-420f-b58d-368c7f68b399)
 
+I conducted some descriptive statistics analysis for key metrics. By analyzing those statistics information with boxplot, I identify some patterns for each cluster.
+
 ![image](https://github.com/Janzhuj/Medicare-Part-D-Claims-Segmentation-and-Anomaly-Detection/assets/99841253/46fb33a8-8dd1-42e6-a8d6-ffa12bed2070)
+
+Finally, we will demonstrate how to detect anomalous claims from a specified specialty.
 
 Mothed 1： direct method using scatter plot.
 
